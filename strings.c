@@ -36,10 +36,10 @@
 // They are stored in program memory to reduce RAM usage.
 
 // HTTP OK response
-const prog_char httpOK[] = {"HTTP/1.0 200 OK"};
+const char httpOK[] PROGMEM = {"HTTP/1.0 200 OK"};
 
 // HTTP Not Found response
-const prog_char httpNotFound[] = {"HTTP/1.0 404 Not Found"};
+const char httpNotFound[] PROGMEM = {"HTTP/1.0 404 Not Found"};
 
 
 #ifdef ENABLE_CLIENT_MODE
